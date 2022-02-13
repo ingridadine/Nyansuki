@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Zen+Maru+Gothic:wght@700&display=swap');
+
+:root{
+    --pink: #e551bb;
+    --darkPurple: #1d1a33;
+    --lightLavender: #e5c9f7;
+    --midLavender: #d275f9;
+    --lemmon: #c9f70b;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--darkPurple);
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--pink);
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--midLavender);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--lightLavender);
+
+}
